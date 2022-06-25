@@ -6,6 +6,10 @@
   height: 60px;
   background-color: #fff;
   border-bottom: solid 1px black;
+  top: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  z-index: 2;
 }
 
 .Title {
