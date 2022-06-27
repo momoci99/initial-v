@@ -1,0 +1,47 @@
+.ImageCard {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image-card--image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+  background-color: black;
+}
+
+.image-card--title {
+  font-family: Noto Sans;
+  color: #feffff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.015em;
+
+  position: absolute;
+}
+.image-card--title.top-left {
+  /* top-left */
+  top: 30px;
+  left: 30px;
+}
+
+.image-card--title.top-right {
+  /* top-right */
+  top: 30px;
+  right: 30px;
+}
+
+.image-card--title.bottom-left {
+  /* bottom-left */
+  bottom: 30px;
+  left: 30px;
+}
+
+.image-card--title.bottom-right {
+  /* bottom-right */
+  bottom: 30px;
+  right: 30px;
+}
