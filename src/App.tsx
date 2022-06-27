@@ -5,6 +5,7 @@ import "./assets/styles/reset.css";
 import Header from "./Header";
 import Hero from "./Hero";
 import SubHero from "./SubHero";
+import Main from "./Main";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Hero></Hero>
       <SubHero></SubHero>
+      <Main></Main>
     </div>
   );
 }
