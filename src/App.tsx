@@ -6,6 +6,7 @@ import Header from "./Header";
 import Hero from "./Hero";
 import SubHero from "./SubHero";
 import Main from "./Main";
+import Rule from "./Rule";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero></Hero>
       <SubHero></SubHero>
       <Main></Main>
+      <Rule></Rule>
     </div>
   );
 }
