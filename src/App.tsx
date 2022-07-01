@@ -8,6 +8,7 @@ import SubHero from "./SubHero";
 import Main from "./Main";
 import Rule from "./Rule";
 import About from "./About";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Main></Main>
       <Rule></Rule>
       <About></About>
+      <Footer></Footer>
     </div>
   );
 }

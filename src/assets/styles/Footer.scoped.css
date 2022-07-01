@@ -1,0 +1,47 @@
+.footer {
+  background-color: #0b0c10;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+}
+
+.footer--title {
+  font-family: "Noto Sans";
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 39px;
+  letter-spacing: -0.015em;
+  text-align: center;
+  color: #feffff;
+}
+.gnb-wrapper__button {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #feffff;
+
+  border: none;
+  background: transparent;
+  padding-right: 144px;
+}
+.gnb-wrapper__button:hover {
+  cursor: pointer;
+}
+
+.footer--copy {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+
+  text-align: right;
+  letter-spacing: -0.015em;
+
+  color: #feffff;
+}
