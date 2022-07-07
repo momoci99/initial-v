@@ -1,4 +1,3 @@
-import ImageAboutus from "./assets/image/aboutus.jpeg";
 import "./assets/styles/About.scoped.css";
 function About() {
   return (
