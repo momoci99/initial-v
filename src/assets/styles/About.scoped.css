@@ -1,23 +1,17 @@
 .About {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  gap: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 60px;
 
   height: 600px;
-  padding: 0px 80px 0px 80px;
-  background-color: #fbfbfd;
-  /* border-top: 1px solid; */
 
-  place-items: center left;
+  background-color: #fbfbfd;
+  width: 100%;
 }
 
-.about--image {
-  width: 750px;
-  height: 440px;
-  object-fit: cover;
+.about__contents {
+  padding-left: 60px;
 }
 
 .about__contents--title {

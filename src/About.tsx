@@ -3,11 +3,6 @@ import "./assets/styles/About.scoped.css";
 function About() {
   return (
     <div className="About">
-      <img
-        className="about--image"
-        src={ImageAboutus}
-        alt="동아리 소개 이미지"
-      ></img>
       <article className="about__contents">
         <p className="about__contents--title">About us</p>
 
