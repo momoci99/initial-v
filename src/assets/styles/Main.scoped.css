@@ -1,7 +1,7 @@
 .Main {
+  height: calc(100vh - 61px);
   background-color: #fbfbfd;
   padding: 120px 60px 120px 60px;
-  background-color: #fbfbfd;
 }
 
 .main-header {
@@ -61,4 +61,55 @@
 }
 .card6 {
   grid-area: 4 / 9 / 7 / 13;
+}
+
+@media screen and (max-width: 599px) {
+  .Main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-image__grid {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 80%;
+  }
+  .main-image__grid div {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .Main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-image__grid {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .main-image__grid div {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .Main {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .main-image__grid {
+    display: block;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100%;
+  }
+  .main-image__grid div {
+    display: inline-block;
+  }
 }

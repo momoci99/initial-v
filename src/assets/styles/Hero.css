@@ -17,8 +17,33 @@
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 500;
-  font-size: 128px;
+  font-size: 8rem;
   color: #feffff;
   white-space: nowrap;
   font-family: Outfit;
+  text-align: center;
+}
+
+@media screen and (max-width: 599px) {
+  .hero-header {
+    white-space: normal;
+    top: 50%;
+    font-size: 7rem;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .hero-header {
+    white-space: normal;
+    top: 50%;
+    font-size: 7rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero-header {
+    white-space: normal;
+    top: 50%;
+    font-size: 7rem;
+  }
 }
