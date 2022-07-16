@@ -1,7 +1,7 @@
 .Main {
-  height: calc(100vh - 61px);
   background-color: #fbfbfd;
-  padding: 120px 60px 0px 60px;
+  padding: 120px 60px 120px 60px;
+  background-color: #fbfbfd;
 }
 
 .main-header {
@@ -32,7 +32,7 @@
 
   color: #0b0c10;
 
-  margin-bottom: 48px;
+  margin-bottom: 60px;
 }
 
 .main-image__grid {
