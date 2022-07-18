@@ -21,7 +21,6 @@
 
 .Gnb {
   font-family: "Montserrat", sans-serif;
-  font-style: Medium;
   font-size: 15px;
   border: none;
   background-color: transparent;
@@ -30,4 +29,46 @@
 
 .Gnb:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 599px) {
+  .Header {
+    justify-content: flex-start;
+    position: relative;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
+  .Title {
+    margin-right: 20px;
+  }
+  .Gnb {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .Header {
+    justify-content: flex-start;
+  }
+
+  .Title {
+    margin-right: 20px;
+  }
+  .Gnb {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .Header {
+    justify-content: flex-start;
+  }
+
+  .Title {
+    margin-right: 20px;
+  }
+  .Gnb {
+    margin-right: 10px;
+  }
 }

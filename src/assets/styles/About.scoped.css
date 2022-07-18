@@ -1,15 +1,12 @@
 .About {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-
-  height: 600px;
+  height: 300px;
   background-color: #fbfbfd;
   width: 100%;
 }
 
 .about__contents {
-  padding-left: 80px;
+  /* padding-left: 80px; */
+  padding: 0px 5rem;
 }
 
 .about__contents--title {
@@ -35,4 +32,22 @@
 
 .about__contents--description a {
   font-family: "Montserrat";
+}
+
+@media screen and (max-width: 599px) {
+  .About {
+    height: inherit;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .About {
+    height: inherit;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .About {
+    height: inherit;
+  }
 }
