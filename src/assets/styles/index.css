@@ -1,5 +1,6 @@
 html {
   width: 100vw;
+  overflow-x: hidden;
 }
 /* 미디어 쿼리 작성하기 ㅜㅜ */
 
