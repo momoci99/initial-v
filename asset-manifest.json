@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/initial-v/static/css/main.66fa782c.css",
+    "main.js": "/initial-v/static/js/main.27d042dd.js",
+    "static/js/787.b8abd39e.chunk.js": "/initial-v/static/js/787.b8abd39e.chunk.js",
+    "static/media/youngjong.jpg": "/initial-v/static/media/youngjong.ca7d9eec66e9e4dfeb0d.jpg",
+    "static/media/loco.jpeg": "/initial-v/static/media/loco.6732927ef024fabdf830.jpeg",
+    "static/media/chpungho.jpeg": "/initial-v/static/media/chpungho.ad9b667d1f2d51045c93.jpeg",
+    "static/media/hero.png": "/initial-v/static/media/hero.1368dcfe1aabd65dce3b.png",
+    "static/media/SubHero1.png": "/initial-v/static/media/SubHero1.b308c136d9c0172366e3.png",
+    "static/media/SubHero2.png": "/initial-v/static/media/SubHero2.21c5bd02e44d99fbbbc6.png",
+    "static/media/jungmimt.png": "/initial-v/static/media/jungmimt.509386007d807943b153.png",
+    "static/media/inje.png": "/initial-v/static/media/inje.4815178c6d7c748e15d9.png",
+    "static/media/kangrung.png": "/initial-v/static/media/kangrung.c353a88a1c9dbcbf96a4.png",
+    "index.html": "/initial-v/index.html",
+    "main.66fa782c.css.map": "/initial-v/static/css/main.66fa782c.css.map",
+    "main.27d042dd.js.map": "/initial-v/static/js/main.27d042dd.js.map",
+    "787.b8abd39e.chunk.js.map": "/initial-v/static/js/787.b8abd39e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66fa782c.css",
+    "static/js/main.27d042dd.js"
+  ]
+}
