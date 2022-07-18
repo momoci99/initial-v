@@ -2,16 +2,14 @@
   display: flex;
   justify-content: left;
   align-items: center;
-  gap: 60px;
 
   height: 600px;
-
   background-color: #fbfbfd;
   width: 100%;
 }
 
 .about__contents {
-  padding-left: 60px;
+  padding-left: 80px;
 }
 
 .about__contents--title {

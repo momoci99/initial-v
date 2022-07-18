@@ -1,7 +1,7 @@
 .Rule {
   padding: 0px 80px 0px 80px;
   background-color: #fbfbfd;
-
+  height: 100vh;
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -52,4 +52,28 @@
   text-align: left;
 
   color: rgba(black, 0.8);
+}
+
+@media screen and (max-width: 599px) {
+  .rule__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  .rule__container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .rule__container {
+    display: flex;
+    flex-direction: column;
+    /* gap: 60px; */
+  }
 }
