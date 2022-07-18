@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <span className="footer--title">
-        <a href="/">INITIAL V</a>
+        <a href="/initial-v">INITIAL V</a>
       </span>
       <div className="footer__gnb-wrapper">
         <Link to="Hero" smooth={true} className="gnb-wrapper__button">

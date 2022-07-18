@@ -5,7 +5,7 @@ function Header() {
   return (
     <nav className="Header">
       <span className="Title">
-        <a href="/">INITIAL V</a>
+        <a href="/initial-v">INITIAL V</a>
       </span>
       <div className="GnbWrapper">
         <Link to="Hero" smooth={true} className="Gnb">
